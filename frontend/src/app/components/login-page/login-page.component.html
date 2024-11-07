@@ -1,0 +1,28 @@
+<div class="login-container">
+  <img src="assets/logo.png" alt="Icon">
+  <h1>Writer's Post</h1>
+  <h2>Created by Bryan Suguitan & Vince Tadiwan</h2>
+  <p style="font-weight: bold; font-size: large; margin-bottom: 20px;">Login</p>
+  <form name="form" (ngSubmit)="onSubmit()" #f="ngForm" novalidate>
+    <div>
+      <input required
+             type="text"
+             placeholder="Username"
+             name="username"
+             [(ngModel)]="form.username"
+             #username="ngModel">
+
+      <input type="password"
+             placeholder="Password"
+             name="password"
+             [(ngModel)]="form.password"
+             required
+             #password="ngModel">
+    </div>
+    <button type="submit">Login</button>
+  </form>
+  <div *ngIf="errorMessage" style="color: red;">
+    {{ errorMessage }}
+  </div>
+  <a style=" text-align: center; text-decoration: underline; text-decoration-thickness: 0.5px;" (click)="navigateToRegister()">Don't have an account yet? Sign Up!</a>
+</div>

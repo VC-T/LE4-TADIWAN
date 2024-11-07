@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  background-color: #f0f0f0;
+  color: #454545;
+  font-family: 'Courier New', monospace;
+}
+
+.login-container {
+  text-align: center;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  margin: 200px 550px;
+}
+
+  .login-container img {
+    width: 150px;
+    margin: 0;
+  }
+
+  .login-container h1 {
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Courier New', monospace;
+    color: #454545;
+  }
+
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-bottom: 1px solid #434343;
+    outline: none;
+    font-family: 'Courier New', monospace;
+    color: #434343;
+  }
+
+  .login-container a {
+    display: block;
+    color: #454545;
+    margin-bottom: 20px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+    .login-container a:hover {
+      text-decoration: underline;
+    }
+
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    color: #ccc;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    background-color: #454545;
+    border: 2px solid #454545;
+    font-family: 'Courier New', monospace;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+    .login-container button:hover {
+      background-color: #ccc;
+      color: #454545;
+    }
+
+  @media (min-width: 600px) {
+    .login-container {
+      margin: 200px 100px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .login-container {
+      margin: 200px auto;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .login-container {
+      width: 50%;
+      max-width: 600px;
+    }
+  }
+

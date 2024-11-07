@@ -1,0 +1,29 @@
+.post-container {
+  margin: 20px 550px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+  .post-container h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+
+    .post-container h3 a {
+      text-decoration: none;
+      color: #1a73e8;
+    }
+
+      .post-container h3 a:hover {
+        text-decoration: underline;
+      }
+
+  .post-container p {
+    margin: 10px 0 0;
+    color: #666;
+  }
+
+

@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\frontend",
+    "\\frontend\\public",
+    "\\frontend\\src",
+    "\\frontend\\src\\app",
+    "\\frontend\\src\\app\\components",
+    "\\frontend\\src\\app\\components\\post-detail",
+    "\\frontend\\src\\app\\components\\register-page",
+    "\\frontend\\src\\app\\models",
+    "\\frontend\\src\\assets"
+  ],
+  "PreviewInSolutionExplorer": false
+}

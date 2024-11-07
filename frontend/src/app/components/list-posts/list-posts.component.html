@@ -1,0 +1,7 @@
+<div>
+  <h1 style="text-align: center; font-size: 70px; margin-top: 60px; margin-bottom: 20px; font-family: 'Courier New', monospace; ">All Posts</h1>
+  <div *ngFor="let post of posts" class="post-container">
+    <h3><a href="/posts/{{post.id}}">{{ post.title }}</a></h3>
+    <p>by {{ post.firstName }} {{ post.lastName }} ; on {{ post.dateCreated }}</p>
+  </div>
+</div>
